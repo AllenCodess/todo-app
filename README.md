@@ -16,29 +16,32 @@ Users can **register, log in, and manage personal tasks** securely. Each user’
 
 ## Setup and Run Instructions
 
- Backend
-
+### Backend
+```bash
 cd to-do-backend
 python3 -m venv venv
 source venv/bin/activate
 pip install Flask Flask-SQLAlchemy Flask-Login Flask-Cors werkzeug
-
+```
 
 ### Create a DataBase
 ```bash
 from app import db, app
 with app.app_context():
     db.create_all()
+```
 
-```bash
 ### Start the backend Server
+```bash
 python app.py
+```
 
 # FrontEnd
 ```bash
 cd ../todo-frontend
 npm install
 npm run dev
+```
 
 Core Functionality
 
