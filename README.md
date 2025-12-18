@@ -36,7 +36,7 @@ with app.app_context():
 python app.py
 ```
 
-# FrontEnd
+### Start the FrontEnd Server
 ```bash
 cd ../todo-frontend
 npm install
