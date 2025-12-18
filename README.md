@@ -43,16 +43,16 @@ npm install
 npm run dev
 ```
 
-Core Functionality
+### Core Functionality
 
-User Authentication: Register, login, logout
+- User Authentication: Register, login, logout
 
-Task Management: Add, update (toggle complete), delete tasks
+- Task Management: Add, update (toggle complete), delete tasks
 
-Task Attributes: Title, priority (High/Medium/Low), due date, completed status
+- Task Attributes: Title, priority (High/Medium/Low), due date, completed status
 
-Filtering & Sorting: Filter by completion (All/Completed/Pending), sort by priority
+- Filtering & Sorting: Filter by completion (All/Completed/Pending), sort by priority
 
-UI Features: Line-through for completed tasks, responsive layout, task-specific buttons
+- UI Features: Line-through for completed tasks, responsive layout, task-specific buttons
 
-API Integration: Frontend fetches data dynamically; backend enforces user-specific access
+- API Integration: Frontend fetches data dynamically; backend enforces user-specific access
