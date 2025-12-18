@@ -16,8 +16,8 @@ Users can **register, log in, and manage personal tasks** securely. Each user’
 
 ## Setup and Run Instructions
 
-### Backend
-```bash
+ Backend
+
 cd to-do-backend
 python3 -m venv venv
 source venv/bin/activate
